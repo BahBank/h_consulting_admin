@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="{{ asset('assets/front/css/home.css') }}">
     <!-- Modernizr JS -->
     <script src="{{ asset('assets/front/js/vendor/modernizr-3.10.0.min.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <style>
         .menu-item:hover::after{
             content : none !important;
@@ -298,6 +301,7 @@
 <!-- All jquery file included here -->
 <script src="{{ asset('assets/front/js/vendor/jquery-3.5.0.min.js') }}"></script>
 <script src="{{ asset('assets/front/js/vendor/jquery-migrate-3.1.0.min.js') }}"></script>
+
 <script src="{{ asset('assets/front/js/vendor/bootstrap.bundle.min.js') }}"></script>
 <!-- <script src="{{ asset('assets/front/js/plugins') }}/plugins.js"></script> -->
 
@@ -305,7 +309,8 @@
 <script src="{{ asset('assets/front/js/plugins/plugins.min.js') }}"></script>
 <script src="{{ asset('assets/front/js/main.js') }}"></script>
 
-    
+
+
 
 </body>
 
